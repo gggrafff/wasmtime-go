@@ -47,7 +47,7 @@ If you are a bazel user, add following to your WORKSPACE file:
 ```
 go_repository(
     name = "com_github_bytecodealliance_wasmtime_go",
-    importpath = "github.com/bytecodealliance/wasmtime-go/v12",
+    importpath = "github.com/gggrafff/wasmtime-go/v12",
     version = "v12.0.0",
 )
 ```
@@ -61,7 +61,7 @@ package main
 
 import (
     "fmt"
-    "github.com/bytecodealliance/wasmtime-go/v12"
+    "github.com/gggrafff/wasmtime-go/v12"
 )
 
 func main() {
